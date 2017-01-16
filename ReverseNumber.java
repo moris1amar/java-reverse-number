@@ -8,7 +8,7 @@ public class ReverseNumber{
 			temp = number%10;
 
 			reverseNumber = reverseNumber * 10 + temp;
-			number = number/10;
+			number /= 10;
 		}
 
 		System.out.println("Reversed Number is: " + reversedNumber);
